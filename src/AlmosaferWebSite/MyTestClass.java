@@ -2,6 +2,7 @@ package AlmosaferWebSite;
 
 import static org.testng.Assert.assertEquals;
 
+import java.time.LocalDate;
 import java.util.Random;
 
 import org.openqa.selenium.By;
@@ -83,8 +84,45 @@ public class MyTestClass extends Parameter {
 			System.out.println("the actual lang =" + actual);
 			assertEquals(actual, expected);
 			
+		}}
+
+//	@Test(priority = 8)
+//	public void checkDepartureAndReturnDate() {
+//		LocalDate date = LocalDate.now();
+//		System.out.println(date);
+//		int expectedDepartureDate = date.plusDays(1).getDayOfMonth();
+//		System.out.println("expectedDepartureDate" + expectedDepartureDate);
+//		int expectedReturnDate = date.plusDays(2).getDayOfMonth();
+//		System.out.println("expectedReturnDate" + expectedReturnDate);
+//
+//		int actualDepartureDate = Integer.parseInt(
+//				driver.findElement(By.cssSelector("div[class='sc-iHhHRJ sc-kqlzXE blwiEW'] span[class='sc-cPuPxo LiroG']")).getText());
+//		int actualReturnDate = Integer.parseInt(
+//				driver.findElement(By.cssSelector("div[class='sc-iHhHRJ sc-OxbzP edzUwL'] span[class='sc-cPuPxo LiroG']")).getText());
+//		assertEquals(actualDepartureDate, expectedDepartureDate);
+//		assertEquals(actualReturnDate, expectedReturnDate);
+//
+//	}
+	
+	@Test(priority = 9)
+	public void switchToHotel() {
+		WebElement hotelButton=driver.findElement(By.id("uncontrolled-tab-example-tab-hotels"));
+		hotelButton.click();
+
+//		WebElement searchBar=driver.findElement(By.className("phbroq-2"));
+		
+		
+		
+		if(driver.getCurrentUrl().contains("ar")) {
+			WebElement searchBar1=driver.findElement(By.cssSelector("input[placeholder='البحث عن فنادق أو وجهات']"));
+			searchBar1.sendKeys(cityInAr[randAr]);
+		}else {
+			WebElement searchBar=driver.findElement(By.cssSelector("input[placeholder='Search for hotels or places']"));
+			searchBar.sendKeys(cityInEn[randEn]);
+			
 		}
 		
-
+		
 	}
+
 }

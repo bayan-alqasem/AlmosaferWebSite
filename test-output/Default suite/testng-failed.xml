@@ -5,8 +5,8 @@
     <classes>
       <class name="AlmosaferWebSite.MyTestClass">
         <methods>
-          <include name="selectRandomLanguage"/>
           <include name="setUp"/>
+          <include name="switchToHotel"/>
         </methods>
       </class> <!-- AlmosaferWebSite.MyTestClass -->
     </classes>
