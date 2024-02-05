@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-02T19:33:51 EET" name="Default suite" finished-at="2024-02-02T19:34:06 EET" duration-ms="14766">
+  <suite started-at="2024-02-05T14:31:07 EET" name="Default suite" finished-at="2024-02-05T14:31:59 EET" duration-ms="52435">
     <groups>
     </groups>
-    <test started-at="2024-02-02T19:33:51 EET" name="Default test" finished-at="2024-02-02T19:34:06 EET" duration-ms="14766">
+    <test started-at="2024-02-05T14:31:07 EET" name="Default test" finished-at="2024-02-05T14:31:59 EET" duration-ms="52435">
       <class name="AlmosaferWebSite.MyTestClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AlmosaferWebSite.MyTestClass@285a4fe3]" started-at="2024-02-02T19:33:51 EET" name="setUp" finished-at="2024-02-02T19:34:00 EET" duration-ms="8577" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AlmosaferWebSite.MyTestClass@6c0b51da]" started-at="2024-02-05T14:31:07 EET" name="setUp" finished-at="2024-02-05T14:31:12 EET" duration-ms="4868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectRandomLanguage()[pri:7, instance:AlmosaferWebSite.MyTestClass@285a4fe3]" started-at="2024-02-02T19:34:00 EET" name="selectRandomLanguage" finished-at="2024-02-02T19:34:01 EET" duration-ms="1776" status="PASS">
+        <test-method signature="selectRandomLanguage()[pri:7, instance:AlmosaferWebSite.MyTestClass@6c0b51da]" started-at="2024-02-05T14:31:12 EET" name="selectRandomLanguage" finished-at="2024-02-05T14:31:13 EET" duration-ms="1158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRandomLanguage -->
-        <test-method signature="selectRandomLanguage()[pri:7, instance:AlmosaferWebSite.MyTestClass@285a4fe3]" started-at="2024-02-02T19:34:01 EET" name="selectRandomLanguage" finished-at="2024-02-02T19:34:03 EET" duration-ms="1147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectRandomLanguage -->
-        <test-method signature="selectRandomLanguage()[pri:7, instance:AlmosaferWebSite.MyTestClass@285a4fe3]" started-at="2024-02-02T19:34:03 EET" name="selectRandomLanguage" finished-at="2024-02-02T19:34:04 EET" duration-ms="1133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectRandomLanguage -->
-        <test-method signature="selectRandomLanguage()[pri:7, instance:AlmosaferWebSite.MyTestClass@285a4fe3]" started-at="2024-02-02T19:34:04 EET" name="selectRandomLanguage" finished-at="2024-02-02T19:34:05 EET" duration-ms="1262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectRandomLanguage -->
-        <test-method signature="switchToHotel()[pri:9, instance:AlmosaferWebSite.MyTestClass@285a4fe3]" started-at="2024-02-02T19:34:05 EET" name="switchToHotel" finished-at="2024-02-02T19:34:06 EET" duration-ms="731" status="PASS">
+        <test-method signature="switchToHotel()[pri:9, instance:AlmosaferWebSite.MyTestClass@6c0b51da]" started-at="2024-02-05T14:31:13 EET" name="switchToHotel" finished-at="2024-02-05T14:31:17 EET" duration-ms="3599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchToHotel -->
+        <test-method signature="randomSelectTheVisitorNumber()[pri:10, instance:AlmosaferWebSite.MyTestClass@6c0b51da]" started-at="2024-02-05T14:31:17 EET" name="randomSelectTheVisitorNumber" finished-at="2024-02-05T14:31:22 EET" duration-ms="5612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomSelectTheVisitorNumber -->
+        <test-method signature="checkThePageIsLoading()[pri:11, instance:AlmosaferWebSite.MyTestClass@6c0b51da]" started-at="2024-02-05T14:31:22 EET" name="checkThePageIsLoading" finished-at="2024-02-05T14:31:58 EET" duration-ms="35934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThePageIsLoading -->
+        <test-method signature="lowestPrice()[pri:12, instance:AlmosaferWebSite.MyTestClass@6c0b51da]" started-at="2024-02-05T14:31:58 EET" name="lowestPrice" finished-at="2024-02-05T14:31:59 EET" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowestPrice -->
       </class> <!-- AlmosaferWebSite.MyTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

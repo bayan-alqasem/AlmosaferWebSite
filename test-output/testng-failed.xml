@@ -6,7 +6,7 @@
       <class name="AlmosaferWebSite.MyTestClass">
         <methods>
           <include name="setUp"/>
-          <include name="switchToHotel"/>
+          <include name="checkThePageIsLoading"/>
         </methods>
       </class> <!-- AlmosaferWebSite.MyTestClass -->
     </classes>
